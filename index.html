@@ -54,11 +54,25 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right main-nav">
-					<li><a href="#intro">Sign up now and add your CV </a></li>
+					<li><a   class="btn btn-blue" id="lo">Sign in</a></li>
+					<script>
+						document.getElementById("lo").addEventListener("click",loin);
+						function loin(){
+							window.open('signin.html','_blank','width=250','height=300');
+						}
+					</script>
+					<li><a href="#">Sign up now and add your CV </a></li>
 					<!-- <li><a href="#services">Services</a></li> -->
 					<!-- <li><a href="#team">Team</a></li>
 					<li><a href="#pricing">Pricing</a></li> -->
-					<li><a href="login.html"  class="btn btn-blue">Sign Up</a></li>
+					<li><a   class="btn btn-blue" id="register">Sign up</a></li>
+					<script>
+						document.getElementById("register").addEventListener("click",reg);
+						function reg(){
+							window.open('register02.html','_blank','width=500','height=300');
+						}
+					</script>
+
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
@@ -450,6 +464,7 @@
 		<a href="#" class="close-link"><i class="arrow_up"></i></a>
 	</div> -->
 	<!-- Scripts -->
+	<script src="register02.js"></script>
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>

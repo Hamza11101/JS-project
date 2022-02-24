@@ -18,7 +18,7 @@
             <div class="col-12">
 
                 <p class="text-info text-center fw-bold fs-2 mt-5">Créer votre compte</p>
-                <form class="form needs-validation" novalidate >
+                <form class="form needs-validation" novalidate   >
                     <div class="form-group  ">
                         <label for="nom" class="mt-2">Nom:</label><br>
                         <input type="text" id="nom" class="form-control mt-2  " placeholder="Saisissez votre nom ici"
@@ -56,7 +56,8 @@
                         </div>
                         <div class="d-grid gap-2">
 
-                            <button id="sub" class="btn btn-success mt-2 pt-1 pb-1 " type="button" onclick="register()">S'insecrire</button>
+                            <button id="sub" class="btn btn-success mt-2 pt-1 pb-1 " onclick="register()" type="submit">S'insecrire</button>
+                            <div class="row mt-lg-5 mt-4 pt-3" id="check"></div>
                         </div>
                     </div>
                 </form>
