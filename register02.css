@@ -35,6 +35,34 @@ after {
   border-bottom: 3px solid #434a52;
 }
 
+.login form input[type="tel"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px;
+}
+.login form input[type="number"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px;
+}
+.login form textarea{
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px;
+}
+
 .login form span {
   background-color: #363b41;
   border-radius: 3px 0px 0px 3px;
@@ -67,6 +95,7 @@ after {
   width: 90%;
   height: 50px;
 }
+
 .login form input[type="text"]{
     background-color: #3b4148;
   border-radius: 0px 3px 3px 0px;

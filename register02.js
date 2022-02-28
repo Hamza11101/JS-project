@@ -1,5 +1,5 @@
 const p =localStorage.getItem("users") || [];
-var z=JSON.parse(p)
+var z=JSON.parse(p);
 function register(){
 var fname = document.getElementById('fname').value;
 var lname=document.getElementById('lname').value;

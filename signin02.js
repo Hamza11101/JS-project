@@ -5,11 +5,18 @@ function login() {
     var email=document.getElementById('email').value;
     var pw=document.getElementById('pw').value;
     let  login  =p.find(x => x.email==email && x.pw==pw);
-    // console.log(login);
+    console.log(login);
     
   
     if (login != null) {
-      
+      if(login.role == "admin"){
+        
+         window.location.replace("/pages/tables.html");
+      }
+      else{
+        window.location.replace("/pages/profile.html");
+      }
+    
       localStorage.setItem("UserConnecté",JSON.stringify(login))
       // window.location.replace("dashboard.html")
       alert("you are signed in ");
