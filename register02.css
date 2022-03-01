@@ -120,3 +120,12 @@ after {
 #login form input[type="submit"]:hover {
   background: #16aa56;
 }
+select{
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px;
+}
